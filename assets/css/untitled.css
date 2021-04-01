@@ -1,0 +1,55 @@
+.bg-img {
+  background-image: url("../../assets/img/portfolio-1.jpg");
+}
+
+#city-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#introduccion-personal {
+  margin-top: 25px;
+}
+
+#subtitle {
+  color: rgb(255,255,255);
+  position: relative;
+}
+
+#name-tag {
+  color: rgb(255,255,255);
+}
+
+#profile-pic {
+  max-width: 86.4px;
+}
+
+@media (min-width: 576px) {
+  #profile-pic {
+    max-width: 15%;
+  }
+}
+
+@media (max-width:600px) {
+  .masthead h1 {
+    font-size: 3.0rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .service-icon {
+  }
+}
+
+@media (max-width:576px) {
+  .col-sm-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.small {
+  margin-top: 20px;
+}
+
